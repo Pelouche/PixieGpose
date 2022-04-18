@@ -4,54 +4,6 @@ on:
   workflow_dispatch:
 
 jobs:
-
-#  changelog:
-#
-#    runs-on: ubuntu-latest
-#
-#    steps:
-#    
-#    - name: Get version date
-#      uses: 1466587594/get-current-time@v2
-#      id: version-date
-#      with:
-#        format: YYYY-MM-DD
-#        
-#    - name: Create Release draft
-#      uses: ncipollo/release-action@v1
-#      with:
-#        allowUpdates: true
-#        name: ${{ steps.version-date.outputs.formattedTime }} (Beta)
-#        tag: v${{ steps.version-date.outputs.formattedTime }}-beta
-#        body: 'changelog generating...'
-#        draft: true
-#        token: ${{ secrets.GITHUB_TOKEN }}
-#        
-#    - name: Checkout
-#      uses: actions/checkout@v2
-#      with:
-#        fetch-depth: 0
-#
-#    - name: Changelog
-#      id: Changelog
-#      uses: mikepenz/release-changelog-builder-action@v2.4.1
-#      with:
-#        #configuration: 'changelogConfig.json'
-#        toTag: v${{ steps.version-date.outputs.formattedTime }}-beta
-#        commitMode: true
-#        failOnError: true
-#        token: ${{ secrets.GITHUB_TOKEN }}
-#
-#    - name: Upload Release
-#      uses: ncipollo/release-action@v1
-#      with:
-#        allowUpdates: true
-#        name: ${{ steps.version-date.outputs.formattedTime }} (Beta)
-#        tag: v${{ steps.version-date.outputs.formattedTime }}-beta
-#        body: ${{ steps.Changelog.outputs.changelog }}
-#        draft: true
-#        token: ${{ secrets.GITHUB_TOKEN }}
-
   build:
 
     runs-on: windows-latest
@@ -90,11 +42,8 @@ jobs:
       with:
         dotnet-version: 5.0.x
    
-    - name: Deploy Anamnesis
-      run: dotnet publish Anamnesis/Anamnesis.csproj /p:PublishProfile=".\Anamnesis\Properties\PublishProfiles\FolderProfile.pubxml"
-      
-    - name: Deploy Update Extractor
-      run: dotnet publish UpdateExtractor/UpdateExtractor.csproj /p:PublishProfile=".\UpdateExtractor\Properties\PublishProfiles\FolderProfile.pubxml"
+    - name: Deploy Pixie
+      run: dotnet publish Pixie/Pixie.csproj /p:PublishProfile=".\Pixie\Properties\PublishProfiles\FolderProfile.pubxml"
 
     - name: Zip Release
       uses: TheDoctor0/zip-release@0.6.0

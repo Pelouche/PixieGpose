@@ -12,7 +12,7 @@ namespace Anamnesis
 		/// </summary>
 		// This is written to by the build server. do not change.
 		// However, I am a dumb programmer.
-		public static readonly DateTime Date = TimeZoneInfo.ConvertTimeToUtc(DateTime.Now);
+		public static readonly DateTime Date = new DateTime(2000, 01, 01, 00, 00, 00, DateTimeKind.Utc);
 
 		/// <summary>
 		/// The latest gamve version that the tool has been validated for.
