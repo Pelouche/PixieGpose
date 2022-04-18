@@ -44,8 +44,6 @@
 						   Visibility="{Binding TipService.IsHydaelyn, Converter={StaticResource B2V}}" />
 					<Image Source="/Assets/Zodiark.png"
 						   Visibility="{Binding TipService.IsZodiark, Converter={StaticResource B2V}}" />
-					<Image Source="/Assets/Anamnesis-tan.png"
-						   Visibility="{Binding TipService.IsAnamTan, Converter={StaticResource B2V}}" />
 				</Grid>
 
 				<Grid VerticalAlignment="Bottom"

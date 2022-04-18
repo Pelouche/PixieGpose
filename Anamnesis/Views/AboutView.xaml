@@ -44,14 +44,18 @@
 			
 
 		</GroupBox>
+
+        <GroupBox Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" Margin="6,0,0,10" Style="{StaticResource Body}">Pixie is a fork of Anamnesis, what follows is the original about page.</TextBlock>
+        </GroupBox>
 		
-		<GroupBox Grid.Row="1">
+		<GroupBox Grid.Row="2">
 			<GroupBox.Header>
 				<XivToolsWpf:TextBlock Key="About_OpenSource_Header"/>
 			</GroupBox.Header>
 
 			<TextBlock TextWrapping="Wrap" Margin="6,0,0,10" Style="{StaticResource Body}">Anamnesis is proudly Free and Open Source Software. Please feel free to leave the team a Star on 
-				<fa:IconBlock Icon="Github"/> <Hyperlink RequestNavigate="OnNavigate" NavigateUri="https://github.com/imchillin/Anamnesis" FontSize="12">GitHub</Hyperlink>.
+				<fa:IconBlock Icon="Github"/> <Hyperlink RequestNavigate="OnNavigate" FontSize="12">GitHub</Hyperlink>.
 					<LineBreak />
 					Anamnesis is built with the following projects:
 					<LineBreak />
@@ -76,7 +80,7 @@
 
 			
 		</GroupBox>
-		<GroupBox Grid.Row="2">
+		<GroupBox Grid.Row="3">
 			<GroupBox.Header>
 				<XivToolsWpf:TextBlock Key="About_Contact_Header"/>
 			</GroupBox.Header>

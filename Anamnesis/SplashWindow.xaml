@@ -27,6 +27,5 @@
 		</Ellipse>
 
 		<ProgressBar Style="{DynamicResource MaterialDesignCircularProgressBar}" Foreground="AliceBlue" IsIndeterminate="True" Width="100" Height="100"/>
-		<Image Grid.Row="0" Source="Assets/Anamnesis.png" Width="100" Height="100" Margin="0,0,0,0"/>
 	</Grid>
 </Window>
