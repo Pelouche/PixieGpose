@@ -356,7 +356,7 @@ namespace Anamnesis.GUI
 
 		private void OnWikiClicked(object sender, RoutedEventArgs e)
 		{
-			UrlUtility.Open("https://github.com/imchillin/Anamnesis/wiki");
+			UrlUtility.Open("https://github.com/Pelouche/PixieGpose/wiki");
 		}
 
 		private void OnBackClicked(object sender, RoutedEventArgs e)
