@@ -15,9 +15,9 @@
 		<Nullable>enable</Nullable>
 		<ProduceReferenceAssembly>false</ProduceReferenceAssembly>
 		<TrimMode>CopyUsed</TrimMode>
-		<AssemblyVersion>1.0.1.0</AssemblyVersion>
-		<Version>1.0.1.0</Version>
-		<FileVersion>1.0.1.0</FileVersion>
+		<AssemblyVersion>0.0.1.0</AssemblyVersion>
+		<Version>0.0.1.0</Version>
+		<FileVersion>0.0.1.0</FileVersion>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<ApplicationManifest>app.manifest</ApplicationManifest>
 		<PlatformTarget>x64</PlatformTarget>
