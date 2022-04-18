@@ -7,7 +7,7 @@ namespace Scripts;
 
 public class CleanNpcNames : ScriptBase
 {
-	const string filePath = "../Anamnesis/Data/NpcNames.json";
+	const string filePath = "../Pixie/Data/NpcNames.json";
 
 	public override string Name => "Clean NPC names";
 

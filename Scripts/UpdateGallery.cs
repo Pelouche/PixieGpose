@@ -10,7 +10,7 @@ namespace Scripts;
 public class UpdateGallery : ScriptBase
 {
 	const int MaxThumnailSize = 720;
-	const string filePath = "../../../../Anamnesis/Data/Images.json";
+	const string filePath = "../../../../Pixie/Data/Images.json";
 
 	public override string Name => "Update Gallery";
 
