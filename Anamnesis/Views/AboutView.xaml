@@ -85,16 +85,6 @@
 				<fa:IconBlock Icon="Discord"/> <Hyperlink RequestNavigate="OnNavigate" NavigateUri="https://discord.gg/KvGJCCnG8t" FontSize="12">Discord</Hyperlink>, or follow the XIV Tools 
 				<fa:IconBlock Icon="Twitter"/> <Hyperlink RequestNavigate="OnNavigate" NavigateUri="https://twitter.com/XIV_Tools" FontSize="12">Twitter</Hyperlink>!</TextBlock>
 		</GroupBox>
-		
-		<GroupBox Grid.Row="3">
-			<GroupBox.Header>
-				<XivToolsWpf:TextBlock Key="About_Donate_Header"/>
-			</GroupBox.Header>
-
-			<TextBlock TextWrapping="Wrap" Margin="6,0,0,15" Style="{StaticResource Body}">This project is a labor of love. Please consider donating to the members of the dev team via Ko-fi to say thank you!<LineBreak />
-				<fa:IconBlock Icon="Coffee"/> <Hyperlink RequestNavigate="OnNavigate" NavigateUri="https://ko-fi.com/aniki" FontSize="12">Yuki &amp; Ani-Ki's shared Ko-fi</Hyperlink>
-			</TextBlock>
-		</GroupBox>
 
 		<GroupBox Grid.Row="4">
 			<GroupBox.Header>

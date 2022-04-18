@@ -1,10 +1,10 @@
+Pixie is a fork of Anamnesis, what follows is the original README from the original authors.
+
 
 # [![Anamnesis](ArtSource/DownloadButton.png "Download Releases")](https://github.com/imchillin/Anamnesis/releases)
 
 
 # Anamnesis
-![Anamnesis](Anamnesis/Assets/Anamnesis.png "Anamnesis")
-
 Anamnesis is a standalone tool that is used to modify certain clientside-only values and allow the user a greater degree of flexibility for making creative and interesting screenshots. In short, this tool allows its users to temporarily change their race, gender, looks, equipment, etc. in game without actually making any changes visible to other players. This tool also allows users to create their own poses. 
 
 Anamnesis is the successor to [Concept Matrix (CMTool)](https://github.com/imchillin/CMTool).

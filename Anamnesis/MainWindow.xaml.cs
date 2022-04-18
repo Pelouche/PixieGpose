@@ -17,7 +17,6 @@ namespace Anamnesis.GUI
 	using Anamnesis.Memory;
 	using Anamnesis.PoseModule;
 	using Anamnesis.Services;
-	using Anamnesis.Updater;
 	using Anamnesis.Utils;
 	using Anamnesis.Views;
 	using Anamnesis.Windows;
@@ -68,7 +67,6 @@ namespace Anamnesis.GUI
 		public TargetService TargetService => TargetService.Instance;
 		public MemoryService MemoryService => MemoryService.Instance;
 		public LogService LogService => LogService.Instance;
-		public UpdateService UpdateService => UpdateService.Instance;
 
 #if DEBUG
 		public bool IsDebug => true;

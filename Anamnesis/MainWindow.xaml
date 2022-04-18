@@ -16,7 +16,6 @@
 	xmlns:XivToolsWpfWindows="clr-namespace:XivToolsWpf.Windows;assembly=XivToolsWpf"
 	xmlns:system="clr-namespace:System;assembly=System.Runtime" xmlns:views1="clr-namespace:Anamnesis.GUI.Views"
 	Closing="Window_Closing"
-	Icon="/Assets/Anamnesis.ico"
 	Loaded="Window_Loaded"
 	ResizeMode="CanMinimize"
 	SizeToContent="WidthAndHeight"

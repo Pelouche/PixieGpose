@@ -15,8 +15,7 @@
 		AllowsTransparency="True"
 		Title="Starting..."
 		WindowStartupLocation="CenterScreen"
-		MouseDown="OnMouseDown"
-		Icon="/Assets/Anamnesis.ico">
+		MouseDown="OnMouseDown">
 
 
 	<Grid Width="100" Height="100" Margin="10">
